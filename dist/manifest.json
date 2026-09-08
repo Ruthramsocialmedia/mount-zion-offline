@@ -1,0 +1,25 @@
+{
+  "name": "Mount Zion 360° Virtual Campus",
+  "short_name": "MountZion 360",
+  "description": "Immersive 360° Virtual Campus Tour for Mount Zion International School and Matriculation Higher Secondary School",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#060a12",
+  "theme_color": "#1E3A5F",
+  "icons": [
+    {
+      "src": "./Logo1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./Logo1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

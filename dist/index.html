@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./Logo1.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore Mount Zion International School like never before with our immersive 360° virtual campus tour." />
+    <meta name="theme-color" content="#060a12" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="MountZion 360" />
+    <title>Mount Zion International School — 360° Virtual Tour</title>
+    <script type="module" crossorigin src="./assets/index-B4feVYdk.js?v=2"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-6Zf204t4.css?v=2">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('./sw.js', { scope: './' })
+            .then(function (reg) {
+              console.log('[PWA] Service Worker registered with scope:', reg.scope);
+            })
+            .catch(function (err) {
+              console.warn('[PWA] Service Worker registration failed:', err);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
