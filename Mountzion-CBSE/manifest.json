@@ -1,22 +1,22 @@
 {
-  "name": "Mount Zion International School (CBSE) 360°",
-  "short_name": "MountZion CBSE",
-  "description": "360° Virtual Campus Tour of Mount Zion International School - CBSE",
-  "start_url": "./index.htm",
-  "scope": "./",
+  "name": "Mount Zion 360° Virtual Campus",
+  "short_name": "MountZion 360",
+  "description": "Immersive 360° Virtual Campus Tour for Mount Zion International School and Matriculation Higher Secondary School",
+  "start_url": "../dist/index.html",
+  "scope": "../",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#1E3A5F",
-  "theme_color": "#2F5E8E",
+  "background_color": "#060a12",
+  "theme_color": "#1E3A5F",
   "icons": [
     {
-      "src": "./thumbnail.png",
+      "src": "../dist/Logo1.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./thumbnail.png",
+      "src": "../dist/Logo1.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

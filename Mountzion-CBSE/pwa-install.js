@@ -229,7 +229,7 @@
   function createBanner(type = 'default') {
     if (bannerElement) return;
 
-    const iconSrc = './thumbnail.png';
+    const iconSrc = '../dist/Logo1.png';
     const wrapper = document.createElement('div');
     wrapper.className = 'mz-pwa-banner-wrapper';
 
@@ -261,14 +261,14 @@
       <div class="mz-pwa-banner" role="dialog" aria-label="Install Mount Zion App">
         <div class="mz-pwa-header">
           <div class="mz-pwa-icon-box">
-            <img src="${iconSrc}" alt="Mount Zion CBSE Logo" onerror="this.onerror=null;this.src='../dist/Logo1.png'">
+            <img src="${iconSrc}" alt="Mount Zion Logo" onerror="this.onerror=null;this.src='./thumbnail.png'">
           </div>
           <div class="mz-pwa-info">
             <div class="mz-pwa-title-row">
-              <h3 class="mz-pwa-title">Mount Zion CBSE</h3>
+              <h3 class="mz-pwa-title">Mount Zion 360°</h3>
               <span class="mz-pwa-badge">Offline Ready</span>
             </div>
-            <p class="mz-pwa-desc">Install for full screen & instant offline campus tours.</p>
+            <p class="mz-pwa-desc">Install Mount Zion Campus App for full offline access.</p>
           </div>
           <button class="mz-pwa-close-btn" id="mz-pwa-close-btn" aria-label="Close">✕</button>
         </div>
