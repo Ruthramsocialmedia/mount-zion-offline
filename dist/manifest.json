@@ -3,7 +3,7 @@
   "short_name": "MountZion 360",
   "description": "Immersive 360° Virtual Campus Tour for Mount Zion International School and Matriculation Higher Secondary School",
   "start_url": "./index.html",
-  "scope": "./",
+  "scope": "../",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#060a12",
