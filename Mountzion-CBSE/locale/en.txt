@@ -1,0 +1,53 @@
+#: locale=en
+
+## Hotspot
+
+### Text
+HotspotPanoramaOverlayTextImage_E169D591_F67D_2E4E_41E2_AF604ABE1E87.text = Basketball Court I & II
+HotspotPanoramaOverlayTextImage_EF20DBDA_F7D3_39F2_41D1_B404B0C1E797.text = Cricket Net Practice Area
+HotspotPanoramaOverlayTextImage_EEA2C30C_F654_EA56_41D0_53B34E3B7109.text = Football Ground
+HotspotPanoramaOverlayTextImage_E159A43A_F6AD_2EB2_41EB_63BA0E565EF5.text = Handball Ground
+HotspotPanoramaOverlayTextImage_E1B4DD05_F67D_1E56_41CF_4AC1F23EC7E0.text = Running Track
+HotspotPanoramaOverlayTextImage_EFBEDB12_F9B3_1A72_41B4_043A70ABE3EB.text = Sports Facility
+HotspotPanoramaOverlayTextImage_E0BC0ED3_F9BD_1BF2_41D4_25E2222767F6.text = Swimming Pool
+HotspotPanoramaOverlayTextImage_EE1946A7_F674_EA52_41C0_4149E37B1A62.text = Swimming Pool
+HotspotPanoramaOverlayTextImage_E15C9A71_F6B3_1ACE_41EE_B1EF03B0A0AB.text = Tennis Court
+HotspotPanoramaOverlayTextImage_E1AF71DF_F673_29F2_418D_0980EDBB295F.text = Volleyball Court I & II
+
+## Media
+
+### Image
+imlevel_29D34293_312D_C7CF_41C5_49526BA1E166.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_fxdyyhpw_en.webp
+imlevel_29DA4161_312D_C54A_41B4_01A080D0E1CF.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_lsw9hxo2_en.webp
+imlevel_29D89188_312D_C5DA_41BC_1FD810808D03.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_o3x9qtg9_en.webp
+imlevel_29D61315_312D_C6CB_41A2_8C8FA46202DF.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_pbcbou2x_en.webp
+imlevel_29DF81E7_312D_C557_41B6_6C5D5ECDBF67.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_u4yu26aq_en.webp
+imlevel_29DC5257_312D_C776_41B4_B550A0F0924C.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_vv1xv736_en.webp
+imlevel_29D7B2EE_312D_C759_41B4_37F5B797CEE1.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_ybiyfcao_en.webp
+imlevel_29D2B2BD_312D_C73B_41B8_C52CF218B76D.url = media/panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640_HS_ye886z4z_en.webp
+imlevel_29CB237C_312D_C53A_41C2_6481B824432A.url = media/panorama_D6436545_C475_E1A0_41DF_46C5B56B3E75_HS_9dl56v6n_en.webp
+imlevel_29CA33CC_312D_C55A_41C5_4FC40467252B.url = media/panorama_D6436545_C475_E1A0_41DF_46C5B56B3E75_HS_gdh2poyu_en.webp
+
+### Title
+panorama_D4CDBC5D_C475_A7A3_417B_3833F66E116D.label = Biology Lab
+panorama_EA65FD5F_FA3A_6CCE_41BB_D5F6990331A3.label = Chemistry Lab
+panorama_EA78059D_FA09_BC50_41EB_C809336336E4.label = Computer Lab
+panorama_2664CA07_311D_C6D7_41C3_29F33D1F6134.label = Entrance
+panorama_D6436545_C475_E1A0_41DF_46C5B56B3E75.label = Front Entrance
+panorama_EA4AADCF_FA0A_AC30_41E5_FBD574E96707.label = KG Classroom
+panorama_EA4A7813_FA09_9450_41E5_744BD174BF63.label = Library
+panorama_D493880D_C475_AFA3_41AA_082F98B4EFB0.label = Physics Lab
+panorama_3CF88662_2F24_4F49_41BD_3DEE03560FD8.label = School Courtyard
+panorama_D577D6BC_C47B_60E2_41D5_FFDC3A291640.label = Sports Facility
+
+## Skin
+
+### Multiline Text
+HTMLText_E481D46B_EA89_F1EB_41E4_49140064DBD5.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:6px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-shadow:0px 0px 5px rgba(0,0,0,0.5);line-height:130%;text-align:center;font-size:25px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:25px;font-family:'Satoshi Medium';">{{title}}</SPAN></SPAN></DIV></div>
+
+## Tour
+
+### Description
+
+### Title
+tour.name = MOUNT ZION International School - CBSE

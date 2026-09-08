@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MOUNT ZION Matric Higher Secondary School</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" id="metaViewport"
+        content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover"
+        data-tdv-general-scale="0.5" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <script src="lib/tdvplayer.js?v=1781160330787"></script>
+    <link rel="preload" href="locale/en.txt?v=1781160330787" as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="script.js?v=1781160330787" as="script" />
+    <meta name="description" content="Virtual Tour" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <script src="script.js?v=1781160330787"></script>
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .fill-viewport {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .fill-viewport.landscape-left {
+            left: env(safe-area-inset-left);
+        }
+
+        .fill-viewport.landscape-right {
+            right: env(safe-area-inset-right);
+        }
+
+        #viewer {
+            z-index: 1;
+        }
+    </style>
+    <link rel="stylesheet" href="fonts.css?v=1781160330787">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('./sw.js', { scope: './' })
+                    .then(function (reg) { console.log('[Matric PWA] Service Worker active:', reg.scope); })
+                    .catch(function (err) { console.warn('[Matric PWA] Registration error:', err); });
+            });
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="viewer" class="fill-viewport"></div>
+    <script>
+        setTimeout(function () {
+            // Load component.js FIRST (injects FontAwesome + Satoshi font)
+            var comp = document.createElement("script");
+            comp.src = "Components/component.js";
+            comp.onload = function () {
+                // Load Music Component FIRST
+                var musicScript = document.createElement("script");
+                musicScript.src = "Components/Music/music.js";
+                musicScript.onload = function () {
+                    // Start building out the UI after consent is resolved (user clicks Yes/No)
+                    document.addEventListener("musicConsentResolved", function () {
+                        var scripts = [
+                            "Components/Menu/menu.js",
+                            "Components/Contact Us/contact.js",
+                            "Components/Search/search.js",
+                            "Components/Panolist/Panolist.js",
+                            "Components/WidgetDock/widget_dock.js",
+                            "Components/gsv_explore/gsv_explore.js",
+                            "Components/WidgetDock/gsv-popup.js",
+                            "Components/WidgetDock/gsv-multi-popup.js",
+                            "Components/Logo/Logo.js",
+                            "Components/Location/location.js",
+                        ];
+                        scripts.forEach(function (src) {
+                            var script = document.createElement("script");
+                            script.src = src;
+                            script.async = true;
+                            document.body.appendChild(script);
+                        });
+                    });
+                };
+                document.body.appendChild(musicScript);
+            };
+            document.body.appendChild(comp);
+        }, 3000);
+    </script>
+</body>
+
+</html>

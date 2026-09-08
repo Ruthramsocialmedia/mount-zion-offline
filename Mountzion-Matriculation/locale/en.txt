@@ -1,0 +1,55 @@
+#: locale=en
+
+## Hotspot
+
+### Text
+HotspotPanoramaOverlayTextImage_0A53DDEC_19E7_108D_41B5_B4AD0CA16C0D.text = Assembly Area
+HotspotPanoramaOverlayTextImage_0AA106A0_19E7_10B5_4194_EBCA356C4DEB.text = Assembly Area
+HotspotPanoramaOverlayTextImage_E09C5857_F6AD_26F2_41C9_01D136BAE97A.text = Assembly Area
+HotspotPanoramaOverlayTextImage_0AA6EAC5_19E9_F0FC_419B_62D666FF6932.text = Entrance
+HotspotPanoramaOverlayTextImage_E0DDA512_F6AF_6E72_41DE_BAB271A80952.text = Higher Secondary \
+Block
+HotspotPanoramaOverlayTextImage_E32CEF02_F673_1A52_41E1_24FAFBACDD68.text = KG Classroom
+HotspotPanoramaOverlayTextImage_0A1D2541_19E9_11F7_4191_B16D2EE45AF2.text = Playground
+HotspotPanoramaOverlayTextImage_E019F359_F6B3_2AFE_41D0_A8AE6ACB7184.text = Primary Block
+HotspotPanoramaOverlayTextImage_E55A962E_F675_EA52_4193_BBFB1E2EDB39.text = Primary Classroom
+
+## Media
+
+### Image
+imlevel_3B7579BC_2F24_4539_4191_A58330A2261A.url = media/panorama_2060C923_2F2B_C2CF_41C4_A20560DFC295_HS_9q392ug6_en.webp
+imlevel_3B702AA9_2F24_47DA_41B9_0E798ACB149D.url = media/panorama_2060C923_2F2B_C2CF_41C4_A20560DFC295_HS_h0d9wvkr_en.webp
+imlevel_3B75DA20_2F24_46CA_4193_6A8B9BE4BE8C.url = media/panorama_2060C923_2F2B_C2CF_41C4_A20560DFC295_HS_ratd9ax0_en.webp
+imlevel_BBFD6551_B51C_A821_41D5_F4A6D6C805FE.url = media/panorama_BBB01793_B503_A821_41A3_342B07A45BDB_HS_19moqjo4_en.webp
+imlevel_E51F07E4_F67D_29D6_41D3_88A704160E1D.url = media/panorama_E54FAB24_F4C0_53EC_41ED_70E2EA261D70_HS_qvz1m1rf_en.webp
+imlevel_E3B40F46_F6BD_1AD2_41CD_47AEFAD20211.url = media/panorama_F050EA9C_FF60_B037_41E0_C406F551BA9C_HS_jfy8trjw_en.webp
+imlevel_E059FEA7_F6BD_1A52_41EB_397F44F4247E.url = media/panorama_F050EA9C_FF60_B037_41E0_C406F551BA9C_HS_lgvbruyy_en.webp
+imlevel_E3CADF7E_F6BD_1AB2_41EE_C7C887986168.url = media/panorama_F050EA9C_FF60_B037_41E0_C406F551BA9C_HS_mz2urqqu_en.webp
+imlevel_E051B4C4_F6AC_EFD5_41C4_8E4A9DE18E81.url = media/panorama_F054FCFC_FF60_71F6_41EC_00DA9E150E90_HS_mqixgiah_en.webp
+
+### Title
+panorama_2060C923_2F2B_C2CF_41C4_A20560DFC295.label = Assembly Area
+panorama_F42B33DE_F9F9_BBD0_41E2_11732EBEE3AC.label = Biology Lab
+panorama_F42EC404_F9FA_9C30_41D2_B0F87D913152.label = Chemistry Lab
+panorama_E54FC54B_F4C0_77BB_41E0_91D3911A72A5.label = Computer Lab
+panorama_E54F5C82_F4C0_D6A5_41D3_073DAA850915.label = Computer Lab - Higher Secondary
+panorama_E54F40EB_F4C0_4E64_41DD_932923B8E669.label = Computer Lab - Primary
+panorama_BBB01793_B503_A821_41A3_342B07A45BDB.label = Entrance
+panorama_F054FCFC_FF60_71F6_41EC_00DA9E150E90.label = Higher Secondary Block
+panorama_F4211998_F9F9_B450_41E3_A6F8CE6403A7.label = Indoor Assembly Hall
+panorama_E54FAB24_F4C0_53EC_41ED_70E2EA261D70.label = KG Classroom
+panorama_F43C74AE_F9FA_FC71_41E9_845404801ED1.label = Physics Lab
+panorama_F050EA9C_FF60_B037_41E0_C406F551BA9C.label = Primary Block
+
+## Skin
+
+### Multiline Text
+HTMLText_E481D46B_EA89_F1EB_41E4_49140064DBD5_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-shadow:0px 0px 2.5px rgba(0,0,0,0.5);line-height:130%;text-align:center;font-size:12.5px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:12.5px;font-family:'Satoshi Medium';">MOUNT ZION MATRIC HIGHER SECONDARY SCHOOL</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:3px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:6px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-shadow:0px 0px 2.5px rgba(0,0,0,0.5);line-height:130%;text-align:center;font-size:10.5px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:10.5px;font-family:'Satoshi';">{{title}}</SPAN></SPAN></DIV></div>
+HTMLText_E481D46B_EA89_F1EB_41E4_49140064DBD5.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:6px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-shadow:0px 0px 5px rgba(0,0,0,0.5);line-height:130%;text-align:center;font-size:25px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:25px;font-family:'Satoshi Medium';">{{title}}</SPAN></SPAN></DIV></div>
+
+## Tour
+
+### Description
+
+### Title
+tour.name = MOUNT ZION Matric Higher Secondary School
